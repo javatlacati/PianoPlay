@@ -69,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "PianoPlay:build"
+            "buildTarget": "PianoPlay:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "PianoPlay:build:production"
+              "buildTarget": "PianoPlay:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PianoPlay:build"
+            "buildTarget": "PianoPlay:build"
           }
         },
         "test": {
